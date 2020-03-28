@@ -26,5 +26,5 @@ Simple Producer Consumer group demonstrating message passing in Kafka written in
 
 ## To do
 - [ ] Update Readme:
-		- [ ] Installation Steps. 
-		- [ ] Steps to run the program.
+    - [ ] Installation Steps. 
+    - [ ] Steps to run the program.
