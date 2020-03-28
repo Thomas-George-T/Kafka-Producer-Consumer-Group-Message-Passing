@@ -1,7 +1,30 @@
-# Description
-Simple Producer Consumer group demonstrating message passing in Kafka written in java
+![GitHub](https://img.shields.io/github/license/Thomas-George-T/Kafka-Producer-Consumer-Group-Message-Passing?style=plastic)
+![GitHub top language](https://img.shields.io/github/languages/top/Thomas-George-T/Kafka-Producer-Consumer-Group-Message-Passing?style=plastic)
+![GitHub last commit](https://img.shields.io/github/last-commit/Thomas-George-T/Kafka-Producer-Consumer-Group-Message-Passing?style=plastic)
 
-### Links to source code
-[SimpleProducer.java](https://github.com/tgt555/Consumer-Group-in-Kafka/blob/master/src/kafkaConsumerGroup/SimpleProducer.java)
+<p align="center">
+  <br>
+  <br>
+  <a href="#">
+    <img height=200 src="https://cdn.svgporn.com/logos/kafka.svg">
+  </a>
+  <br>
+</p>
+<br>
 
-[SimpleConsumer.java](https://github.com/tgt555/Consumer-Group-in-Kafka/blob/master/src/kafkaConsumerGroup/SimpleConsumer.java)
+## Description
+Simple Producer Consumer group demonstrating message passing in Kafka written in Java.
+
+## Environment
+* Kafka 0.8
+* Linux
+
+### Source Code
+[SimpleProducer](src/kafkaConsumerGroup/SimpleProducer.java)
+
+[SimpleConsumer](src/kafkaConsumerGroup/SimpleConsumer.java)
+
+## To do
+- [ ] Update Readme:
+		- [ ] Installation Steps. 
+		- [ ] Steps to run the program.
