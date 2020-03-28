@@ -20,9 +20,9 @@ Simple Producer Consumer group demonstrating message passing in Kafka written in
 * Linux
 
 ## Source Code
-[SimpleProducer](src/kafkaConsumerGroup/SimpleProducer.java)
+[Producer](src/kafkaConsumerGroup/SimpleProducer.java)
 
-[SimpleConsumer](src/kafkaConsumerGroup/SimpleConsumer.java)
+[ConsumerGroup](src/kafkaConsumerGroup/SimpleConsumer.java)
 
 ## To do
 - [ ] Update Readme:
