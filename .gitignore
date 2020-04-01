@@ -2,8 +2,10 @@
 *.classpath
 *.project
 *.settings
-
+target/
 bin/
 RemoteSystemsTempFiles/
 *.recommenders
 *.metadata
+*.iml
+*.idea
