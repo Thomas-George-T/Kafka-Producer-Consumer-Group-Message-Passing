@@ -13,7 +13,7 @@
 <br>
 
 ## Description
-Simple Producer Consumer group demonstrating message passing in Kafka written in Java.
+Custom Producer Consumer group demonstrating message passing in Kafka written in Java.
 
 ## Environment
 * Kafka 0.8
