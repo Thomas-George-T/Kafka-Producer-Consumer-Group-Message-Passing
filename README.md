@@ -13,7 +13,7 @@
 <br>
 
 ## Description
-Custom Producer Consumer group demonstrating message passing in Kafka written in Java.
+Java code for creating a simple custom Producer Consumer group demonstrating message passing in Kafka.
 
 ## Environment
 * Kafka 0.8
@@ -28,3 +28,5 @@ Custom Producer Consumer group demonstrating message passing in Kafka written in
 - [ ] Update Readme:
     - [ ] Installation Steps. 
     - [ ] Steps to run the program.
+    - [ ] Update Kafka code to 2.x.
+    - [ ] Update to a Maven project.
