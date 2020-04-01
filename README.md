@@ -17,14 +17,14 @@ Java code for creating custom Producer and Consumer group demonstrating message 
 
 ## Environment
 
-* Java 1.8 JDK
+* Java JDK 8 (1.8)
 * Zookeeper
 * Kafka >= 2.0
 * Linux
 
 ## Prerequisites 
 
-Ensure that Zookeeper & Kafka servers are up and running(These should be on separate terminal windows).
+Ensure that Zookeeper & Kafka servers are up and running *( Open in separate terminal windows if necessary )*.
 
 Command to start Zookeeper
 
@@ -48,7 +48,7 @@ After cloning this repo,
 mvn clean install
 ```
 
-Maven will now generate a `target` directory with the jar `kafka-1.0-shaded.jar`
+    Maven will now generate a `target` directory with the jar `kafka-1.0-shaded.jar`
 
 2. Move into the `target` directory
 
@@ -60,23 +60,24 @@ cd target
 
 ### To execute the Producer class
 
-1. Run the kafka console consumer in another terminal window with the following `topic` and `group`
+1. Run the kafka console consumer in another terminal window with the following `topic` and `group` parameters
 
 ```
 kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic firstTopic --group my-third-application
 ```
 
-2. Execute the ProducerDemo class from the jar
+2. Execute the ProducerDemo class from the shaded jar
 
 ```
 java -cp kafka-1.0-shaded.jar com.github.thomas.kafka.ProducerDemo
 ```
 
-3. You should now be able to see the output in your kafka console consumer terminal.
+3. You should now be able to see the output in your Kafka console consumer terminal.
 
 ## Source Code
 
 [Producer](src/main/java/com/github/thomas/kafka/ProducerDemo.java)
 
 [ConsumerGroup](old_src/kafkaConsumerGroup/SimpleConsumer.java)
-*ConsumerGroup will be deprecated and eventually removed since it's using an older version of the kafka code*
+
+*ConsumerGroup will be deprecated and eventually removed since it's using an older version of the Kafka code*
