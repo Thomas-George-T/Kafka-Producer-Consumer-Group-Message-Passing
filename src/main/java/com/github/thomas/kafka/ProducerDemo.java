@@ -15,13 +15,13 @@ public class ProducerDemo {
         String bootStrapServers = "localhost:9092";
         String topic = "firstTopic";
 
-        // Set Producer Properties
+        // Set Producer config
         Properties properties = new Properties();
         properties.setProperty(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, bootStrapServers);
         properties.setProperty(ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG, StringSerializer.class.getName());
         properties.setProperty(ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG, StringSerializer.class.getName());
 
-        // Create a producer
+        // Create a Kafka Producer
         KafkaProducer<String, String> producer =  new KafkaProducer<String, String>(properties);
 
             for (int i =0; i<10; i++) {
