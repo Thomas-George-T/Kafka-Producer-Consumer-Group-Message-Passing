@@ -48,7 +48,7 @@ After cloning this repo,
 mvn clean install
 ```
 
-    Maven will now generate a `target` directory with the jar `kafka-1.0-shaded.jar`
+Maven will now generate a `target` directory with the jar `kafka-1.0-shaded.jar`
 
 2. Move into the `target` directory
 
