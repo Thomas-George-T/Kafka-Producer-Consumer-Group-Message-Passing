@@ -74,10 +74,48 @@ java -cp kafka-1.0-shaded.jar com.github.thomas.kafka.ProducerDemo
 
 3. You should now be able to see the output in your Kafka console consumer terminal.
 
+### To execute the Consumer class
+
+1. Execute the ConsumerDemo class from the shaded jar
+
+```
+java -cp kafka-1.0-shaded.jar com.github.thomas.kafka.ConsumerDemo
+```
+
+2. Run the kafka console producer in another terminal window with the `topic` parameter.
+
+```
+kafka-console-producer.sh --broker-list localhost:9092 --topic firstTopic
+```
+
+3. You should now be able to see the output in your Kafka consumer terminal. *( Step 1 )*
+
+### To execute both the Producer and Consumer
+
+1. Execute the ProducerDemo class from the shaded jar
+
+```
+java -cp kafka-1.0-shaded.jar com.github.thomas.kafka.ProducerDemo
+```
+
+2. Execute the ConsumerDemo class from the shaded jar
+
+```
+java -cp kafka-1.0-shaded.jar com.github.thomas.kafka.ConsumerDemo
+```
+
+3. You should now the see the output in your Consumer terminal.
+
 ## Source Code
 
 [Producer](src/main/java/com/github/thomas/kafka/ProducerDemo.java)
 
-[ConsumerGroup](old_src/kafkaConsumerGroup/SimpleConsumer.java)
+[ConsumerGroup](src/main/java/com/github/thomas/kafka/ConsumerDemo.java)
 
-*ConsumerGroup will be deprecated and eventually removed since it's using an older version of the Kafka code*
+## License
+
+This repository is under Apache License 2.0 - see [License](LICENSE.md) for more details
+
+## Acknowledgement
+
+This was inspired by Stephane Maarek. Check out his [Apache Kafka Series course](https://www.udemy.com/course/apache-kafka/) 
