@@ -20,7 +20,8 @@ Java code for creating custom Producer and Consumer group demonstrating message 
 * Java JDK 8 (1.8)
 * Zookeeper
 * Kafka >= 2.0
-* Linux
+* Linux/Windows
+* Maven
 
 ## Prerequisites 
 
